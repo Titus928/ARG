@@ -4,7 +4,8 @@ body{
 }
 
 .flex{
-
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -28,6 +29,11 @@ header{
 
 h1{
     color: #2B4C9A;
+}
+
+h2{
+    color: #2B4C9A;
+    width: 500px;
 }
 
 .portrait{
