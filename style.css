@@ -60,3 +60,7 @@ footer{
     height: 70px;
     background-color: #2B4C9A;
 }
+
+footer p{
+    color: white;
+}
