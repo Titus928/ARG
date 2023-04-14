@@ -1,6 +1,7 @@
 body{
   font-family: 'Oswald', sans-serif;
   margin: 0;
+  overflow: hidden;
 }
 
 header{
@@ -27,11 +28,11 @@ h1{
 
 h2{
   color: #2B4C9A;
-  width: 500px;
+  width: 600px;
 }
 
 .portrait{
-  height: 600px;
+  height: 564px;
 }
 
 /*NAVIGATION HORIZONTALE*/
@@ -58,7 +59,7 @@ h2{
   padding: 16px;
   color: #2B4C9A;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -71,9 +72,9 @@ h2{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/*.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
+}*/
 
 /* Caption text */
 .text {
@@ -118,6 +119,9 @@ h2{
 footer{
   height: 70px;
   background-color: #2B4C9A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p{
