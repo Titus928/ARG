@@ -17,6 +17,7 @@ header{
 }
 
 .accueil{
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +41,7 @@ h2{
 /* Slideshow container */
 .slideshow-container {
   /*max-width: 1000px;*/
+  height: 83%;
   position: relative;
   margin: auto;
 }
@@ -115,6 +117,15 @@ h2{
 }
 
 /*NAVIGATION HORIZONTALE*/
+
+/* Large */
+@media (min-width: 91em) {
+  .slideshow-container{
+    height: 78%;
+    position: relative;
+    margin: auto;
+  }
+}
 
 footer{
   height: 70px;
