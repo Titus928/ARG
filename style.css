@@ -119,7 +119,7 @@ h2{
 /*NAVIGATION HORIZONTALE*/
 
 /* Large */
-@media (min-width: 91em) {
+@media (max-width: 95em) {
   .slideshow-container{
     height: 78%;
     position: relative;
