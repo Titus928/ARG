@@ -32,8 +32,43 @@ h2{
   width: 600px;
 }
 
+h3{
+  color: #2B4C9A;
+}
+
 .portrait{
   height: 564px;
+}
+
+.projets{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nom_projet{
+  width: 400px;
+  height: 50px;
+  background-color: #2B4C9A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nom_projet h3{
+  color: white;
+  text-align: center;
+}
+
+.projet{
+  width: 400px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*NAVIGATION HORIZONTALE*/
@@ -137,4 +172,54 @@ footer{
 
 footer p{
   color: white;
+}
+
+/*PAGES PROJET*/
+
+.background{
+  height: 81%;
+  background-image: url(img/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description_projet_1{
+  height: 500px;
+  width: 1000px;
+  background-image: linear-gradient(to bottom, #2b4c9a, #4060b2, #5376cb, #678be5, #7aa2ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description_projet_1_int{
+  height: 450px;
+  width: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texte_projet{
+  width: 500px;
+}
+
+.texte_projet h1{
+  width: 500px;
+  color: white;
+}
+
+.texte_projet h2{
+  width: 500px;
+  color: white;
+}
+
+.croix{
+  width: 25px;
+  position: absolute;
+  margin: -23px;
 }
