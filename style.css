@@ -71,6 +71,11 @@ h3{
   flex-direction: column;
 }
 
+.projet img{
+  height: 450px;
+  width: 400px;
+}
+
 /*NAVIGATION HORIZONTALE*/
 
 /* Slideshow container */
@@ -143,9 +148,42 @@ footer p{
 
 /*PAGES PROJET*/
 
-.background{
+.background1{
   height: 81%;
   background-image: url(img/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background2{
+  height: 81%;
+  background-image: url(img/projet\ 2\ 30%.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background3{
+  height: 81%;
+  background-image: url(img/projet\ 3\ 30%\ bis.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background4{
+  height: 81%;
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -169,6 +207,11 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.description_projet_1_int img{
+  height: 450px;
+  width: 400px;
 }
 
 .texte_projet{
@@ -205,4 +248,8 @@ footer p{
 
 .fin h1{
   text-align: center;
+}
+
+#indice{
+  opacity: 0.07;
 }
