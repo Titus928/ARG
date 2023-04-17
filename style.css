@@ -200,6 +200,13 @@ footer p{
   justify-content: center;
 }
 
+.background_final{
+  height: 81%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .description_projet_1{
   height: 500px;
   width: 1000px;
